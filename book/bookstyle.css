@@ -1,0 +1,114 @@
+:root{
+  --success-color:green;
+  --error-color:red;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}  
+
+
+body {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group {
+
+  margin-top: 2% ;
+}
+
+
+.btn  {
+  margin: 0 auto;
+
+  font-size: 16px;
+  background-color: #219cde;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 60%;
+  
+}
+.update-btn{
+ 
+  display:none;
+  
+
+
+}
+
+.delete-btn{
+  margin: 0 auto;
+  width:100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: 	#ff0000;
+  color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+.edit-btn{
+  margin: 0 auto;
+  width:100%;
+  text-align: center;
+  font-size: 15px;
+  background-color:	 #00e600;
+  color: black;
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+   padding: 12px;
+   background-color: #ccffcc;
+}
+
+td, th {
+ 
+  text-align: left;
+  padding: 10px;
+  
+}
+
+
+tr:nth-child(even) {
+  background-color: #c7c3b9;
+  
+}
+
+
+
+.form-control.success input{
+  border-color: var(--success-color);
+}
+.form-control.error input{
+  border-color: var( --error-color);
+}
+.form-control small{
+  color: var( --error-color);
+padding-top: 5% ;
+padding-bottom: 5% ;
+ font-size: 20px;
+  visibility: hidden;
+  margin-left: 50%;
+  
+  
+}
+.form-control.error small{
+  visibility: visible;
+  
+}

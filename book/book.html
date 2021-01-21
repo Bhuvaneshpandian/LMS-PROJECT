@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+ 
+    <link rel="stylesheet" href="../book\bookstyle.css">
+    <title>Book</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary ml-auto">
+    <a class="navbar-brand" href="#">LMS</a>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto sm-auto" >
+        <li class="nav-item ">
+          <a class="nav-link  " href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="../issusedbook\issuedbook.html">Issused Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../book\book.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../user\user.html">Users</a>
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+
+ 
+
+
+  
+  <!--  <div class="containerbox">
+    <form id="form" class="form">
+
+    <div  class="form-control">
+        <label class="label" for="isbn">ISBN</label>
+        <input type="text" name="isbn" id="isbn">
+        <small>Error message</small>
+      </div>
+
+    <div  class="form-control">
+      <label class="label"  for="bookName">BookName</label>
+      <input type="text" name="bookName" id="bookName">
+      <small>Error message</small>
+    </div>
+
+    <div class="form-control">
+        <label class="label"  for="author">Author</label>
+        <input type="text" name="author" id="author">
+        <small>Error message</small>
+      </div>
+
+    <div  class="form-control">
+        <label class="label"  for="publisher">Publisher</label>
+        <input type="text" name="publisher" id="publisher" >
+        <small>Error message</small>
+      </div> 
+
+    <div  class="form-control">
+        <label class="label"  for="quanity">Quanity</label>
+        <input type="text" name="quanity" id="quanity">
+        <small>Error message</small>
+      </div>   
+
+      <button type="submit" onclick="bookInfo(event)" class="submit-btn btn">Submit</button>
+     <button type="button" class="update-btn btn">Update</button> 
+    </div>
+
+  </form>
+
+  <div> -->
+
+
+
+
+
+
+
+    
+  <form id="form" >
+    <div class="form-group row">
+      <label for="isbn" class="col-sm-2 col-form-label">ISBN</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="isbn" placeholder="ISBN">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="bookName" class="col-sm-2 col-form-label">BookName</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="bookName" placeholder="BookName">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="author" class="col-sm-2 col-form-label">Author</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="author" placeholder="Author">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <label for="publisher" class="col-sm-2 col-form-label">Publisher</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="publisher" placeholder="Publisher">
+      </div>
+    </div>
+
+    
+    <div class="form-group row">
+      <label for="quanity" class="col-sm-2 col-form-label">Quanity</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="quanity" placeholder="Quanity">
+      </div>
+    </div>
+    
+    
+    
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary   submit-btn" onclick="bookInfo(event)">Submit</button>
+         <button type="button" class="btn btn-primary update-btn">Update</button> 
+
+      </div>
+    </div>
+  </form>
+  
+  <table align="center" cellpadding = "10">
+    <thead>
+        <tr>
+          <th>ID</th>
+          <th>ISBN</th>
+          <th>BookName</th>
+          <th>Author</th>
+          <th>Publisher</th>
+          <th>Quanity</th>
+          <th>issuedBook</th>
+         
+          <th>Actions</th>
+          
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+  </table>
+</div>
+
+       
+
+<script src="../book\bookscript.js"></script>
+
+
+</body>
+</html>

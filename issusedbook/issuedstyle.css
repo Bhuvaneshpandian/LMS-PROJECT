@@ -1,0 +1,68 @@
+
+
+.user{
+
+  margin-top: 7.6%;
+
+}
+
+
+ .book{
+  padding: 2px 4px;
+  position: fixed;
+  bottom: 70%;
+  right:55%;
+  width: 300px;
+ 
+}
+  
+.count{
+  padding: 2px 4px;
+  position: fixed;
+  bottom: 70%;
+  right:40%;
+  width: 300px;
+ 
+}
+
+  
+.submit-btn{
+  
+  padding: 2px 2px 2px 2px ;
+  position: fixed;
+  bottom: 70%;
+  right:10%;
+  width: 300px;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+   padding: 12px;
+   background-color:#ccffcc ;
+   margin-top: 5% ;
+}
+
+td, th {
+
+  text-align: left;
+  padding: 10px;
+  
+}
+
+
+tr:nth-child(even) {
+  background-color: #c7c3b9;
+  
+} 
+
+#errormessage{
+ 
+  color: red;
+  margin-left: 38% ;
+
+}

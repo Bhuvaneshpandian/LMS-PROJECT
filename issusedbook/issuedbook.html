@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../issusedbook\issuedstyle.css"> 
+  
+    
+    <title>Issued Book</title>
+</head>
+<body>
+    
+
+ 
+
+ 
+<!--  <form id="form"> -->
+
+<!-- 
+      <div class=" select-container">
+            
+            <select id="user">
+            </select> 
+                 <span id ="userlist"> user
+                </span>  
+               
+             
+
+                <select id="book">
+                </select>
+               
+                <span id ="bookList">books</span>
+   <input type="text"  id="count" placeholder="count"/>
+   <button id="issuedbook-btn" class="btn" onclick="issuedBookOnclick(event)">Issued Book</button>
+          
+</form>
+</div>
+        
+      
+            <table>
+              <thead>
+                <tr>
+                  <th >ID</th>
+                  <th>Username</th>
+                  <th>Book</th>
+                </tr>
+              </thead>
+              <tbody>
+               
+              </tbody>
+            </table> -->
+     
+      
+
+     
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary ml-auto">
+  <a class="navbar-brand" href="#">LMS</a>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto sm-auto" >
+      <li class="nav-item ">
+        <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link " href="../issusedbook\issuedbook.html">Issused Book</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../book\book.html">Books</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../user\user.html">Users</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+
+
+ <div class="container">
+<form id="form" >
+
+ <div class="dropdown user">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="user" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Users
+  </button>
+  <div id ="userlist" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+ </div>
+
+ </div> 
+ <div class="dropdown book"> 
+ <button class="btn btn-secondary dropdown-toggle" type="button" id="book" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  books
+</button>
+<div id ="booklist" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+</div>
+</div>
+
+
+  <div class="form-group row count">
+    <label for="count" class="col-sm-2 col-form-label count">Count</label>
+    <div class="col-sm-10">
+      <input type="text" class="count" id="count" placeholder="Count">
+    </div>
+    </div>
+
+
+    <div class="form-group row">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary  submit-btn"  id="issuedbook-btn" onclick="issuedBookOnclick(event)">Issued Book</button>
+        
+      </div>
+     
+    </div>
+
+ 
+  </form>
+  
+</div>
+<small id="errormessage"></small>
+
+  <table>
+    <thead>
+      <tr>
+        <th >ID</th>
+        <th>Username</th>
+        <th>Book</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+     
+    </tbody>
+  </table> 
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script src="../issusedbook\isuued.js"></script>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
+

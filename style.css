@@ -1,0 +1,53 @@
+
+ *{
+    box-sizing: border-box;
+}  
+
+
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+h1{
+ text-align: center;
+       padding-top: 15% ; 
+      font-size: 50px;
+      color:#ff9999;
+      
+      
+      }
+    
+   /*  nav{
+    text-align: right;
+     background-color: #80bfff;
+    padding: 20px 30px;  
+    font-size: 20px;
+    font-weight: 100px;
+       
+        
+        
+    }
+    a{
+         color: #0039e6;
+        text-decoration:none;
+         margin: 15px 15px;  
+
+        
+        
+       
+    }
+    .active {
+        color:    #ff0066;
+    } */
+    
+    /* 
+    .left{
+       padding-right: 100% ;
+       text-align: center;
+       margin-top: 100% ;
+        color: #000;
+        
+
+    } */
